@@ -19,23 +19,33 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="PandaMusic今天开始，记录我的开发路程，加油！">
+    <meta name="description" content="Android StudioFragment的使用1.fragment的产生 2.什么是fragment  3.fragment的简单使用11.创建空白fragment 2.fragment的生命周期函数 3.编写fragment里面的布局代码4.解析xml 5.书写对应的点击事件 6.将这个fragment加入到activity中去(注意，一定要有id！) 7.效果展示">
 <meta property="og:type" content="article">
-<meta property="og:title" content="PandaMusic">
-<meta property="og:url" content="http://example.com/2024/11/19/PandaMusic/index.html">
+<meta property="og:title" content="Android_development">
+<meta property="og:url" content="http://example.com/2024/11/21/Android-development/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="PandaMusic今天开始，记录我的开发路程，加油！">
+<meta property="og:description" content="Android StudioFragment的使用1.fragment的产生 2.什么是fragment  3.fragment的简单使用11.创建空白fragment 2.fragment的生命周期函数 3.编写fragment里面的布局代码4.解析xml 5.书写对应的点击事件 6.将这个fragment加入到activity中去(注意，一定要有id！) 7.效果展示">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-11-19T05:32:49.313Z">
-<meta property="article:modified_time" content="2024-11-19T07:39:22.196Z">
+<meta property="og:image" content="http://example.com/images/fragment.png">
+<meta property="og:image" content="http://example.com/2024/11/21/images/%E4%BB%80%E4%B9%88%E6%98%AFfragment.png">
+<meta property="og:image" content="http://example.com/images/fragment_1.png">
+<meta property="og:image" content="http://example.com/images/fragment_2.png">
+<meta property="og:image" content="http://example.com/images/fragment_3.png">
+<meta property="og:image" content="http://example.com/images/fragment_4.png">
+<meta property="og:image" content="http://example.com/images/fragment_5.png">
+<meta property="og:image" content="http://example.com/images/fragment_6.png">
+<meta property="og:image" content="http://example.com/images/fragment_7.png">
+<meta property="article:published_time" content="2024-11-21T01:32:58.000Z">
+<meta property="article:modified_time" content="2024-11-21T03:28:48.676Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/images/fragment.png">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>PandaMusic - Hexo</title>
+  <title>Android_development - Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -212,7 +222,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="PandaMusic"></span>
+            <span id="subtitle" data-typed-text="Android_development"></span>
           
         </div>
 
@@ -223,8 +233,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-11-19 13:32" pubdate>
-          2024年11月19日 下午
+        <time datetime="2024-11-21 09:32" pubdate>
+          2024年11月21日 上午
         </time>
       </span>
     
@@ -235,7 +245,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          15 字
+          75 字
         
       </span>
     
@@ -283,12 +293,21 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">PandaMusic</h1>
+            <h1 id="seo-header">Android_development</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="PandaMusic"><a href="#PandaMusic" class="headerlink" title="PandaMusic"></a>PandaMusic</h1><h1 id="今天开始，记录我的开发路程，加油！"><a href="#今天开始，记录我的开发路程，加油！" class="headerlink" title="今天开始，记录我的开发路程，加油！"></a>今天开始，记录我的开发路程，加油！</h1>
+                <h1 id="Android-Studio"><a href="#Android-Studio" class="headerlink" title="Android Studio"></a>Android Studio</h1><h2 id="Fragment的使用"><a href="#Fragment的使用" class="headerlink" title="Fragment的使用"></a>Fragment的使用</h2><h3 id="1-fragment的产生"><a href="#1-fragment的产生" class="headerlink" title="1.fragment的产生"></a>1.fragment的产生</h3><p><img src="/../images/fragment.png" srcset="/img/loading.gif" lazyload></p>
+<h3 id="2-什么是fragment"><a href="#2-什么是fragment" class="headerlink" title="2.什么是fragment"></a>2.什么是fragment</h3><img src="../images/什么是fragment.png" srcset="/img/loading.gif" lazyload style="zoom:25%;" />
+
+<h3 id="3-fragment的简单使用1"><a href="#3-fragment的简单使用1" class="headerlink" title="3.fragment的简单使用1"></a>3.fragment的简单使用1</h3><h4 id="1-创建空白fragment"><a href="#1-创建空白fragment" class="headerlink" title="1.创建空白fragment"></a>1.创建空白fragment</h4><p><img src="/../images/fragment_1.png" srcset="/img/loading.gif" lazyload></p>
+<h4 id="2-fragment的生命周期函数"><a href="#2-fragment的生命周期函数" class="headerlink" title="2.fragment的生命周期函数"></a>2.fragment的生命周期函数</h4><p><img src="/../images/fragment_2.png" srcset="/img/loading.gif" lazyload></p>
+<h4 id="3-编写fragment里面的布局代码"><a href="#3-编写fragment里面的布局代码" class="headerlink" title="3.编写fragment里面的布局代码"></a>3.编写fragment里面的布局代码</h4><h4 id=""><a href="#" class="headerlink" title=""></a><img src="/../images/fragment_3.png" srcset="/img/loading.gif" lazyload></h4><h4 id="4-解析xml"><a href="#4-解析xml" class="headerlink" title="4.解析xml"></a>4.解析xml</h4><p><img src="/../images/fragment_4.png" srcset="/img/loading.gif" lazyload></p>
+<h4 id="5-书写对应的点击事件"><a href="#5-书写对应的点击事件" class="headerlink" title="5.书写对应的点击事件"></a>5.书写对应的点击事件</h4><p><img src="/../images/fragment_5.png" srcset="/img/loading.gif" lazyload></p>
+<h4 id="6-将这个fragment加入到activity中去-注意，一定要有id！"><a href="#6-将这个fragment加入到activity中去-注意，一定要有id！" class="headerlink" title="6.将这个fragment加入到activity中去(注意，一定要有id！)"></a>6.将这个fragment加入到activity中去(<em><strong>注意，一定要有id！</strong></em>)</h4><p><img src="/../images/fragment_6.png" srcset="/img/loading.gif" lazyload></p>
+<h4 id="7-效果展示"><a href="#7-效果展示" class="headerlink" title="7.效果展示"></a>7.效果展示</h4><p><img src="/../images/fragment_7.png" srcset="/img/loading.gif" lazyload></p>
+
                 
               </div>
             
@@ -305,8 +324,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>PandaMusic</div>
-      <div>http://example.com/2024/11/19/PandaMusic/</div>
+      <div>Android_development</div>
+      <div>http://example.com/2024/11/21/Android-development/</div>
     </div>
     <div class="license-meta">
       
@@ -318,7 +337,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年11月19日</div>
+          <div>2024年11月21日</div>
         </div>
       
       
@@ -350,18 +369,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/11/21/Android-development/" title="Android_development">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Android_development</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/11/19/Python/" title="Python辅助教学">
-                        <span class="hidden-mobile">Python辅助教学</span>
+                      <a href="/2024/11/19/PandaMusic/" title="PandaMusic">
+                        <span class="hidden-mobile">PandaMusic</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
