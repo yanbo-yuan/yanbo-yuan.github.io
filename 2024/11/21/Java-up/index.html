@@ -19,33 +19,33 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Android StudioFragment的使用1.fragment的产生 2.什么是fragment  3.fragment的简单使用11.创建空白fragment 2.fragment的生命周期函数 3.编写fragment里面的布局代码4.解析xml 5.书写对应的点击事件 6.将这个fragment加入到activity中去(注意，一定要有id！) 7.效果展示">
+    <meta name="description" content="Java 的内部类1.什么是内部类12类的五大成员    属性、方法、构造方法、代码块、内部类  定义：在一个类的里面，再定义一个类。 举例：在A类的内部定义B类，B类就被称为内部类 12345public class Outer&#123;(外部类)    public class Inner&#123;(内部类)            &#125;&#125;  12345public cla">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Android_development">
-<meta property="og:url" content="http://example.com/2024/11/21/Android-development/index.html">
+<meta property="og:title" content="Java_up">
+<meta property="og:url" content="http://example.com/2024/11/21/Java-up/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Android StudioFragment的使用1.fragment的产生 2.什么是fragment  3.fragment的简单使用11.创建空白fragment 2.fragment的生命周期函数 3.编写fragment里面的布局代码4.解析xml 5.书写对应的点击事件 6.将这个fragment加入到activity中去(注意，一定要有id！) 7.效果展示">
+<meta property="og:description" content="Java 的内部类1.什么是内部类12类的五大成员    属性、方法、构造方法、代码块、内部类  定义：在一个类的里面，再定义一个类。 举例：在A类的内部定义B类，B类就被称为内部类 12345public class Outer&#123;(外部类)    public class Inner&#123;(内部类)            &#125;&#125;  12345public cla">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/images/fragment.png">
-<meta property="og:image" content="http://example.com/2024/11/21/images/%E4%BB%80%E4%B9%88%E6%98%AFfragment.png">
-<meta property="og:image" content="http://example.com/images/fragment_1.png">
-<meta property="og:image" content="http://example.com/images/fragment_2.png">
-<meta property="og:image" content="http://example.com/images/fragment_3.png">
-<meta property="og:image" content="http://example.com/images/fragment_4.png">
-<meta property="og:image" content="http://example.com/images/fragment_5.png">
-<meta property="og:image" content="http://example.com/images/fragment_6.png">
-<meta property="og:image" content="http://example.com/images/fragment_7.png">
-<meta property="article:published_time" content="2024-11-21T01:32:58.000Z">
-<meta property="article:modified_time" content="2024-11-21T04:35:57.630Z">
+<meta property="og:image" content="http://example.com/images/%E5%86%85%E9%83%A8%E7%B1%BB_1.png">
+<meta property="og:image" content="http://example.com/images/%E6%88%90%E5%91%98%E5%86%85%E9%83%A8%E7%B1%BB.png">
+<meta property="og:image" content="http://example.com/images/%E6%88%90%E5%91%98%E5%86%85%E9%83%A8%E7%B1%BB_1.png">
+<meta property="og:image" content="http://example.com/images/%E5%86%85%E9%83%A8%E7%B1%BB%E7%9A%84%E5%86%85%E5%AD%98%E5%9B%BE.png">
+<meta property="og:image" content="http://example.com/images/%E5%86%85%E9%83%A8%E7%B1%BB_%E9%9D%99%E6%80%81%E5%86%85%E9%83%A8%E7%B1%BB2.png">
+<meta property="og:image" content="http://example.com/images/%E5%86%85%E9%83%A8%E7%B1%BB_%E9%9D%99%E6%80%81%E5%86%85%E9%83%A8%E7%B1%BB.png">
+<meta property="og:image" content="http://example.com/images/%E5%86%85%E9%83%A8%E7%B1%BB_%E9%9D%99%E6%80%81%E5%86%85%E9%83%A8%E7%B1%BB3.png">
+<meta property="og:image" content="http://example.com/images/%E5%8C%BF%E5%90%8D%E5%86%85%E9%83%A8%E7%B1%BB.png">
+<meta property="og:image" content="http://example.com/images/%E5%8C%BF%E5%90%8D%E5%86%85%E9%83%A8%E7%B1%BB2.png">
+<meta property="article:published_time" content="2024-11-21T03:38:45.000Z">
+<meta property="article:modified_time" content="2024-11-21T06:50:07.667Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/images/fragment.png">
+<meta name="twitter:image" content="http://example.com/images/%E5%86%85%E9%83%A8%E7%B1%BB_1.png">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>Android_development - Hexo</title>
+  <title>Java_up - Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -222,7 +222,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Android_development"></span>
+            <span id="subtitle" data-typed-text="Java_up"></span>
           
         </div>
 
@@ -233,8 +233,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-11-21 09:32" pubdate>
-          2024年11月21日 上午
+        <time datetime="2024-11-21 11:38" pubdate>
+          2024年11月21日 中午
         </time>
       </span>
     
@@ -245,7 +245,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          75 字
+          322 字
         
       </span>
     
@@ -256,7 +256,7 @@
         
         
         
-          1 分钟
+          3 分钟
         
       </span>
     
@@ -293,20 +293,51 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Android_development</h1>
+            <h1 id="seo-header">Java_up</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="Android-Studio"><a href="#Android-Studio" class="headerlink" title="Android Studio"></a>Android Studio</h1><h2 id="Fragment的使用"><a href="#Fragment的使用" class="headerlink" title="Fragment的使用"></a>Fragment的使用</h2><h3 id="1-fragment的产生"><a href="#1-fragment的产生" class="headerlink" title="1.fragment的产生"></a>1.fragment的产生</h3><p><img src="/../images/fragment.png" srcset="/img/loading.gif" lazyload></p>
-<h3 id="2-什么是fragment"><a href="#2-什么是fragment" class="headerlink" title="2.什么是fragment"></a>2.什么是fragment</h3><img src="../images/什么是fragment.png" srcset="/img/loading.gif" lazyload  />
+                <h1 id="Java-的内部类"><a href="#Java-的内部类" class="headerlink" title="Java 的内部类"></a>Java 的内部类</h1><h2 id="1-什么是内部类"><a href="#1-什么是内部类" class="headerlink" title="1.什么是内部类"></a>1.什么是内部类</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs java">类的五大成员<br>    属性、方法、构造方法、代码块、内部类<br></code></pre></td></tr></table></figure>
 
-<h3 id="3-fragment的简单使用1"><a href="#3-fragment的简单使用1" class="headerlink" title="3.fragment的简单使用1"></a>3.fragment的简单使用1</h3><h4 id="1-创建空白fragment"><a href="#1-创建空白fragment" class="headerlink" title="1.创建空白fragment"></a>1.创建空白fragment</h4><p><img src="/../images/fragment_1.png" srcset="/img/loading.gif" lazyload></p>
-<h4 id="2-fragment的生命周期函数"><a href="#2-fragment的生命周期函数" class="headerlink" title="2.fragment的生命周期函数"></a>2.fragment的生命周期函数</h4><p><img src="/../images/fragment_2.png" srcset="/img/loading.gif" lazyload></p>
-<h4 id="3-编写fragment里面的布局代码"><a href="#3-编写fragment里面的布局代码" class="headerlink" title="3.编写fragment里面的布局代码"></a>3.编写fragment里面的布局代码</h4><h4 id=""><a href="#" class="headerlink" title=""></a><img src="/../images/fragment_3.png" srcset="/img/loading.gif" lazyload></h4><h4 id="4-解析xml"><a href="#4-解析xml" class="headerlink" title="4.解析xml"></a>4.解析xml</h4><p><img src="/../images/fragment_4.png" srcset="/img/loading.gif" lazyload></p>
-<h4 id="5-书写对应的点击事件"><a href="#5-书写对应的点击事件" class="headerlink" title="5.书写对应的点击事件"></a>5.书写对应的点击事件</h4><p><img src="/../images/fragment_5.png" srcset="/img/loading.gif" lazyload></p>
-<h4 id="6-将这个fragment加入到activity中去-注意，一定要有id！"><a href="#6-将这个fragment加入到activity中去-注意，一定要有id！" class="headerlink" title="6.将这个fragment加入到activity中去(注意，一定要有id！)"></a>6.将这个fragment加入到activity中去(<em><strong>注意，一定要有id！</strong></em>)</h4><p><img src="/../images/fragment_6.png" srcset="/img/loading.gif" lazyload></p>
-<h4 id="7-效果展示"><a href="#7-效果展示" class="headerlink" title="7.效果展示"></a>7.效果展示</h4><p><img src="/../images/fragment_7.png" srcset="/img/loading.gif" lazyload></p>
+<p>定义：在一个类的里面，再定义一个类。</p>
+<p>举例：在A类的内部定义B类，B类就被称为内部类</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Outer</span>&#123;(外部类)<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Inner</span>&#123;(内部类)<br>        <br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Test</span>&#123;(外部其他类)<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span>&#123;<br>        <br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<p><img src="/../images/%E5%86%85%E9%83%A8%E7%B1%BB_1.png" srcset="/img/loading.gif" lazyload></p>
+<p><strong>什么时候用到内部类</strong>？</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-selector-tag">B</span>类表示的事务是<span class="hljs-selector-tag">A</span>类的一部分，且<span class="hljs-selector-tag">B</span>单独存在没有意义。<br>比如：汽车的发动机、ArrayList的迭代器、人的心脏。。。<br></code></pre></td></tr></table></figure>
+
+<h2 id="2-内部类的分类"><a href="#2-内部类的分类" class="headerlink" title="2.内部类的分类"></a>2.内部类的分类</h2><ul>
+<li><strong>成员内部类</strong></li>
+</ul>
+<p><img src="/../images/%E6%88%90%E5%91%98%E5%86%85%E9%83%A8%E7%B1%BB.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="/../images/%E6%88%90%E5%91%98%E5%86%85%E9%83%A8%E7%B1%BB_1.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="/../images/%E5%86%85%E9%83%A8%E7%B1%BB%E7%9A%84%E5%86%85%E5%AD%98%E5%9B%BE.png" srcset="/img/loading.gif" lazyload></p>
+<ul>
+<li>静态内部类(也是成员内部类的一种)</li>
+</ul>
+<p><strong>静态内部类只能访问外部类中的静态变量和静态方法</strong></p>
+<p><em>如果想访问非静态的需要创建外部类的对象。</em></p>
+<p><img src="/../images/%E5%86%85%E9%83%A8%E7%B1%BB_%E9%9D%99%E6%80%81%E5%86%85%E9%83%A8%E7%B1%BB2.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="/../images/%E5%86%85%E9%83%A8%E7%B1%BB_%E9%9D%99%E6%80%81%E5%86%85%E9%83%A8%E7%B1%BB.png" srcset="/img/loading.gif" lazyload></p>
+<p>总结：</p>
+<p><img src="/../images/%E5%86%85%E9%83%A8%E7%B1%BB_%E9%9D%99%E6%80%81%E5%86%85%E9%83%A8%E7%B1%BB3.png" srcset="/img/loading.gif" lazyload></p>
+<ul>
+<li>局部内部类(没什么用~~~可以略过)</li>
+</ul>
+<p>将内部类定义在方法里面就叫做局部内部类，<strong>类似于方法里面的局部变量</strong>。</p>
+<ul>
+<li><strong>匿名内部类</strong></li>
+</ul>
+<p><strong>匿名内部类的本质</strong>：隐藏了名字的内部类。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs java">格式：<br>	<span class="hljs-keyword">new</span> 类名或者接口名()&#123;<br>    	重写方法;<br>    &#125;<br><br>举例：<br>    <span class="hljs-keyword">new</span> <span class="hljs-title class_">Inter</span>()&#123;<br>    	<span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">show</span><span class="hljs-params">()</span>&#123;<br>        &#125;<br>    &#125;<br></code></pre></td></tr></table></figure>
+
+<p><strong>看看这个你就能理解匿名内部类的实现方法了</strong></p>
+<p><img src="/../images/%E5%8C%BF%E5%90%8D%E5%86%85%E9%83%A8%E7%B1%BB.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="/../images/%E5%8C%BF%E5%90%8D%E5%86%85%E9%83%A8%E7%B1%BB2.png" srcset="/img/loading.gif" lazyload></p>
 
                 
               </div>
@@ -324,8 +355,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Android_development</div>
-      <div>http://example.com/2024/11/21/Android-development/</div>
+      <div>Java_up</div>
+      <div>http://example.com/2024/11/21/Java-up/</div>
     </div>
     <div class="license-meta">
       
@@ -369,18 +400,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/11/21/Java-up/" title="Java_up">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Java_up</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/11/19/PandaMusic/" title="PandaMusic">
-                        <span class="hidden-mobile">PandaMusic</span>
+                      <a href="/2024/11/21/Android-development/" title="Android_development">
+                        <span class="hidden-mobile">Android_development</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
